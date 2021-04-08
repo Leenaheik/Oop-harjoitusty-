@@ -3,6 +3,7 @@
 Koodi on vielä erittäin kesken, pahoittelut siitä. Tallennus ja lataus -toimintoon en ole vielä edes päässyt, saati kaikkiin metodeihinkaan.. 
 
 Kysymyksiä
+
 Main: Kayttäjä k = new Asukas(); 
   tuosta eclipse herjaa tuon olion luonnin yhteydessä. Ennen sitä täytyisi tietty laittaa se syöte, että onko käyttäjä asukas, vai pääkäyttäjä, mutta jumahdin nyt tuohon         olion luomiseen
   Samoin Mainissa Eclipe herjaa tuosta Scanner s = new Scanner(System.in), tuosta s-nimestä tuossa mainissa, että sitä ei käytetä
