@@ -1,1 +1,3 @@
-# Oop-harjoitusty-
+# Oop-harjoitustyö-
+
+Luokka Asukas - 
