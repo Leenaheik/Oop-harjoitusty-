@@ -3,7 +3,22 @@ package varausjärjestelmä;
 import java.util.Scanner;
 
 public class Asukas implements Käyttäjä{
+	private String asunto; 
+		
+	public Asukas (String asunto) {
+		this.asunto = asunto;
+	}
+
+	public String annaAsunto() {
+		return asunto; 
+	}
 	
+	public void asetaAsunto(String asunto) {		
+		if(asunto.length()<=3) {
+			this.asunto = asunto; 
+		}		
+	}
+
 	@Override
 	public void tulostaValikko() {
 		System.out.println ("Valitse toiminto:");
